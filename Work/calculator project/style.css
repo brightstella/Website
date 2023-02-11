@@ -1,0 +1,50 @@
+body{
+    background-color:rgb(49, 24, 49);
+    text-align: center;
+    color: white;
+}
+
+.container{
+    margin: 160px auto;
+    border: 3px solid rgb(240, 226, 238);
+    max-width: 220px;
+    height: 290px;
+    border-radius: 29px;
+    background-color: rgb(32, 7, 25);
+}
+
+#display{
+    width: 160px;
+    margin:  19px 8px 2px 8px;
+    background: transparent;
+    padding: 12px;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+}
+.button{
+    width: 34px;
+    height: 34px;
+    margin: 3px;
+    box-shadow: inset  5px 5px 8px rgb(39, 14, 26);
+    font-weight: 600;
+    font-size: bold;
+    color: rgb(20, 3, 6);
+    border-radius: 6px;
+    background-color: rgb(207, 202, 212);
+}
+.brandname{
+    margin:5px 0px 0px 0px;
+    opacity: 40%;
+}
+.button:active{
+    color: rgb(201, 119, 136);
+}
+.operatorButton{
+    color: aliceblue;
+    background-color:rgb(66, 54, 54);
+}
+.clearButton{
+    color: aliceblue;
+    background-color: rgb(51, 3, 29);
+}
